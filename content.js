@@ -13,7 +13,7 @@ chrome.runtime.onMessage.addListener(
             'position': 'fixed',
             'z-index': 999999,
             'top': last_click[1],
-            'left': last_click[0],
+            'left': last_click[0]
         });
     }
 
