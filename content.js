@@ -28,7 +28,6 @@ chrome.runtime.onMessage.addListener(
             if (i > 3)
                 break;
             list.append('<li><a href="'+request['stream'][stream]['direct_url']+'">'+request['stream'][stream]['friendlyName']+'</a></li>');
-            popup.append(list);
         }
         popup.append(list);
     }
